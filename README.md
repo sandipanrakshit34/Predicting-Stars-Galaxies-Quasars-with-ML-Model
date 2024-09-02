@@ -1,8 +1,5 @@
 # Predicting Stars, Galaxies & Quasars with ML Model
 <center> <img src = "https://github.com/sandipanrakshit34/Predicting-Stars-Galaxies-Quasars-with-ML-Model/blob/main/0_JUcdOiTCpUlPwx3Z.jpg" width = 100%>
-This project is part of the YouTube Academic Projects Series by Spartificial Innovations Pvt Ltd. It focuses on the application of Machine Learning to classify astronomical objects as stars, galaxies, or quasars using the Sloan Digital Sky Survey (SDSS) DR14 dataset.
-
-## Project ID: PSGQ0922
 
 ## Project Workflow
 
