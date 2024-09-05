@@ -1,32 +1,67 @@
-# Predicting Stars, Galaxies & Quasars with ML Model
-<center> <img src = "https://github.com/sandipanrakshit34/Predicting-Stars-Galaxies-Quasars-with-ML-Model/blob/main/0_JUcdOiTCpUlPwx3Z.jpg" width = 100%>
+# **Predicting Stars, Galaxies & Quasars with ML Model**
+<center> <img src = "https://github.com/sandipanrakshit34/Predicting-Stars-Galaxies-Quasars-with-ML-Model/blob/main/1712723588668.jpg" width = 100%>
 
-## Project Workflow
+## **Overview**
+This machine learning project leverages the **Sloan Digital Sky Survey (SDSS) DR14 dataset** to classify astronomical objects into **stars**, **galaxies**, and **quasars**. By training on a set of features, the model aims to accurately predict these celestial entities, contributing to the exploration of the universe.
 
-1. **Introduction to the Dataset**
-2. **Importing Necessary Libraries and Modules**
-3. **Exploring the Dataset**
-4. **Preparing Data for the Model**
-5. **Scaling the Data and Checking Distribution Plots**
-6. **Building the ML Models and Checking Results**
+---
 
-## About the Problem & Dataset
+## **Project Workflow**
+1. **Introduction to the Dataset**  
+2. **Importing Necessary Libraries and Modules**  
+3. **Exploring the Dataset**  
+4. **Preparing Data for the Model**  
+5. **Scaling the Data and Distribution Plots**  
+6. **Building ML Models and Evaluating Results**
 
-### Astronomical Objects:
+---
 
-- **Galaxy**: A gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter. Galaxies are categorized as elliptical, spiral, or irregular based on their morphology.
+## **About the Problem & Dataset**
+
+### **Astronomical Objects**
+- **Galaxy**: A massive, gravitationally bound system containing stars, gas, dust, and dark matter, classified as elliptical, spiral, or irregular.
   
-- **Star**: A luminous spheroid of plasma held together by gravity. The Sun is the nearest star to Earth.
+- **Star**: A luminous spheroid of gas undergoing nuclear fusion, like the Sun.
 
-- **Quasar**: An extremely luminous active galactic nucleus (AGN), radiating enormous power. Quasars are among the brightest objects in the universe.
+- **Quasar**: A highly luminous active galactic nucleus (AGN), among the brightest objects in the universe.
 
-### Dataset:
+### **Dataset**
+- **Source**: Sloan Digital Sky Survey (SDSS) DR14
+- **Size**: 10,000 observations
+- **Features**: 17 descriptive columns and 1 class column (classifying objects as Star, Galaxy, or Quasar)
+- **Data Split**: 
+  - 70% training set  
+  - 30% testing set
 
-The dataset used is the Sloan Digital Sky Survey (SDSS) DR14, containing 10,000 observations described by 17 feature columns and 1 class column. The class column categorizes the observations as either a star, galaxy, or quasar. The dataset is split into 70% training and 30% testing subsets.
+---
 
-## Installation
+## **Installation**
 
-To run this project locally, ensure you have Python installed, along with the necessary libraries:
+To run this project locally, follow these steps:
 
-```bash
-pip install numpy pandas matplotlib seaborn tensorflow scikit-learn
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/sandipanrakshit34/Predicting-Stars-Galaxies-Quasars-with-ML-Model.git
+    cd Predicting-Stars-Galaxies-Quasars-with-ML-Model
+    ```
+
+2. **Install the required libraries**:
+    ```bash
+    pip install numpy pandas matplotlib seaborn tensorflow scikit-learn
+    ```
+
+---
+
+## **Usage**
+
+1. Load the dataset and explore it.
+2. Preprocess the data (scaling, splitting).
+3. Build and train your machine learning model.
+4. Evaluate the model using the testing dataset.
+
+You can use Jupyter Notebook or run the Python script provided in the repository.
+
+---
+
+## **License**
+This project is licensed under the MIT License.
