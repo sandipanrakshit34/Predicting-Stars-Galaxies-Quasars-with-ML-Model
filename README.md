@@ -35,6 +35,12 @@ This machine learning project leverages the **Sloan Digital Sky Survey (SDSS) DR
 
 ---
 
+## Authors
+
+- [@sandipanrakshit34](https://github.com/sandipanrakshit34)
+
+##
+
 ## **Installation**
 
 To run this project locally, follow these steps:
