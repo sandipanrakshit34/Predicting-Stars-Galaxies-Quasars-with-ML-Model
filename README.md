@@ -35,7 +35,7 @@ This machine learning project leverages the **Sloan Digital Sky Survey (SDSS) DR
 
 ---
 
-## Authors
+## Author
 
 - [@sandipanrakshit34](https://github.com/sandipanrakshit34)
 
